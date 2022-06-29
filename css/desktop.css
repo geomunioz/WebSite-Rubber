@@ -79,21 +79,16 @@ header{
 
 .introduction-container{
     grid-template-columns: repeat(2, 1fr);
-    padding: 80px;
+    padding: 0px 80px;
+    margin-block: 100px;
 }
 
-.introduction-picture{
-    width: 100%;
-    padding: 16px;
+.introduction-picture img{
+    max-width: 300px;
 }
-
-.introduction-information{
-    width: 100%;
-}
-
 .services-container{
     grid-template-columns: repeat(auto-fit, 240px);
-    gap: 20px;
+    /* gap: 20px; */
     justify-content: space-between;
     padding: 0 180px;
 }
