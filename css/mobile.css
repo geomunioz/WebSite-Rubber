@@ -177,7 +177,8 @@ header nav{
 }
 
 #service-grid__2{
-    background-image: url('../images/disp-control.jpg');
+    background-image: url('../images/dispositivos.jpg');
+    color: var(--primary-color);
 }
 #service-grid__3{
     background-image: url('../images/elastomeros.png');
@@ -189,7 +190,7 @@ header nav{
     background-image: url('../images/Metrologia.png');
 }
 #service-grid__6{
-    background-image: url('../images/Paileria.png');
+    background-image: url('../images/paileria.jpg');
 }
 
 .service-frontpage{
