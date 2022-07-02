@@ -173,7 +173,9 @@ header nav{
 }
 
 #service-grid__1{
-    background-image: url('../images/diseño.png');
+    background-image: url('../images/diseño.jpg');
+    color: var(--primary-color);
+
 }
 
 #service-grid__2{
@@ -181,10 +183,12 @@ header nav{
     color: var(--primary-color);
 }
 #service-grid__3{
-    background-image: url('../images/elastomeros.png');
+    background-image: url('../images/elastomeros.jpg');
+    background-position: center;
 }
 #service-grid__4{
-    background-image: url('../images/maquinados.png');
+    background-image: url('../images/Maquinados.jpg');
+    background-position: center;
 }
 #service-grid__5{
     background-image: url('../images/Metrologia.png');
@@ -265,7 +269,7 @@ header nav{
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 7));
+      transform: translateX(calc(-250px * 9));
     }
 }
 

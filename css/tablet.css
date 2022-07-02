@@ -1,0 +1,15 @@
+.introduction-container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    margin-block: 80px;
+}
+
+.services-container{
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.service-grid__item{
+    height: 360px;
+}
