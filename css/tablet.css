@@ -1,3 +1,26 @@
+.cover-container.cover-about{
+    height: 60vh;
+}
+
+.cover-container__grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cover-container__title.about{
+    padding: 0 20px 0 60px;
+}
+
+#politica-1{
+    order: 1;
+}
+
+#politica-2{
+    order: 2;
+}
+
 .introduction-container{
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;

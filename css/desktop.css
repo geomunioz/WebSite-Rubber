@@ -73,6 +73,15 @@ header{
     color: var(--light-color);
 }
 
+.cover-container.cover-about{
+    height: 100vh;
+}
+
+
+.cover-container__title.about{
+    padding: 0 20px 0 80px;
+}
+
 .cover-container__title h1{
     font-size: 2.2em;
 }
@@ -86,6 +95,11 @@ header{
 .introduction-picture img{
     max-width: 300px;
 }
+
+.introduction-information.about{
+    margin: 0 auto;
+}
+
 .services-container{
     grid-template-columns: repeat(auto-fit, 240px);
     justify-content: space-between;
