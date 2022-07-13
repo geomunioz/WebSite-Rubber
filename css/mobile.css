@@ -147,6 +147,15 @@ header nav{
     color: var(--light-color);
 }
 
+.cover-contact{
+    display: flex;
+    padding-top: 80px;
+    height: 60vh;
+    background-image: url('../images/contact-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
 .cover-container.cover-about{
     height: auto;
     background: var(--light-color);
@@ -185,6 +194,19 @@ header nav{
 .cover-container__image img{
     width: 100%;
     object-fit: fill;
+}
+
+.cover-title__section{
+    width: max-content;
+    height: max-content;
+    padding: 16px;
+    background-color: #697F8C;
+    color: var(--light-color);
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0px 50px 50px 0px;
+    place-self: end;
 }
 
 .introduction-container{
@@ -379,6 +401,86 @@ header nav{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.contact-information{
+    padding: 0 16px;
+    margin-block: 40px;
+}
+
+
+.contact-data{
+    width: 100%;
+    height: 350px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.contact-data div{
+    width: 100%;
+}
+
+.contact-map{
+    width: 100%;
+}
+
+.grid-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-form__input{
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    margin: 12px auto;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.contact-form__textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+}
+
+.grid-message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-message div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+}
+
+.contact-form__btn{
+    height: 40px;
+    padding-inline: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    justify-content: end;
 }
 
 footer{

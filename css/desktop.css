@@ -73,6 +73,10 @@ header{
     color: var(--light-color);
 }
 
+.cover-contact{
+    height: 100vh;
+}
+
 .cover-container.cover-about{
     height: 100vh;
 }
@@ -108,4 +112,13 @@ header{
 
 .service-grid__item{
     height: 300px;
+}
+
+.contact-information{
+    width: calc(100% - 160px);
+    margin: 40px auto;
+}
+
+.contact-data{
+    padding: 30px;
 }

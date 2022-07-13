@@ -13,6 +13,12 @@
     padding: 0 20px 0 60px;
 }
 
+.cover-title__section{
+    width: 400px;
+    font-size: 3em;
+    padding: 24px 0;
+}
+
 #politica-1{
     order: 1;
 }
@@ -35,4 +41,27 @@
 
 .service-grid__item{
     height: 360px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-data{
+    height: 400px;
+}
+
+.contact-form__input{
+    width: 80%;
+}
+
+.contact-form__textarea{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.grid-message div{
+    width: 90%;
 }
