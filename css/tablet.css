@@ -27,6 +27,33 @@
     order: 2;
 }
 
+.cover-elastomeros{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: none;
+    padding: 80px 16px 0;
+}
+
+.cover-image{
+    display: initial;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    align-self: center;
+}
+
+.info{
+    align-self: center;
+    background-color: transparent;
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .introduction-container{
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
@@ -43,6 +70,7 @@
     height: 360px;
 }
 
+.grid-two,
 .contact-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,4 +92,12 @@
 
 .grid-message div{
     width: 90%;
+}
+
+.swiper-container{
+    min-height: 300px;
+}
+
+.swiper-wrapper{
+    padding: 0 20px;
 }
