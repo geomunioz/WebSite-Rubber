@@ -101,3 +101,11 @@
 .swiper-wrapper{
     padding: 0 20px;
 }
+
+.mySwiper5 .swiper-wrapper{
+    padding: 0;
+}
+
+.design-info{
+    margin-block: 0;
+}

@@ -177,7 +177,7 @@ header nav {
     }
 }
 
-
+.cover-desing,
 .cover-contact {
     display: flex;
     padding-top: 80px;
@@ -185,6 +185,12 @@ header nav {
     background-image: url('../images/contact-bg.png');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-desing{
+    background-image: url('../images/cover-diseño.jpeg');
+    justify-content: end;
 }
 
 .cover-container.cover-about {
@@ -245,6 +251,11 @@ header nav {
     text-align: center;
     border-radius: 0px 50px 50px 0px;
     place-self: end;
+}
+
+.cover-title__section.design{
+    background-color: var(--primary-color);
+    border-radius: 50px 0px 0px 50px;
 }
 
 .cover-elastomeros {
@@ -683,6 +694,92 @@ header nav {
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
     background-color: var(--primary-color);
+}
+
+/* Swiper card */
+.swiper {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.swiper-slide.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.swiper-slide.card:hover{
+    transform: none;
+    transition: none;
+}
+
+.swiper-slide.card:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .swiper-slide.card:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .swiper-slide.card:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  .swiper-slide.card:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+
+  .swiper-slide.card:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+
+  .swiper-slide.card:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+
+  .swiper-slide.card:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+
+  .swiper-slide.card:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+
+  .swiper-slide.card:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+
+  .swiper-slide.card:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+
+/* CSS Paginas de Servicios */
+.container-design{
+    margin-block: 30px;
+    padding-inline: 16px;
+}
+
+.desing-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-auto-rows: 1fr;
+    gap: 8px;
+    aspect-ratio: 1/1;
+    text-align: center;
+}
+
+.design-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 40px;
 }
 
 footer {

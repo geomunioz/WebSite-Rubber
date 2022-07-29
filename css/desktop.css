@@ -73,6 +73,7 @@ header{
     color: var(--light-color);
 }
 
+.cover-desing,
 .cover-contact{
     height: 100vh;
 }
