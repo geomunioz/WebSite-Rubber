@@ -1,20 +1,6 @@
 header{
-    /* position: absolute;
-    display:  flex;
-    justify-content: center; */
     padding: 0px 80px;
-    /* width: 100vw;
-    height: 80px;
-    background-color: var(--primary-color);
-    z-index: 3; */
 }
-
-/* header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-} */
 
 .menu-mobile{
     display: none;
@@ -59,12 +45,13 @@ header{
     margin: 12px;
 }
 
+.cover-device,
 .cover-container{
     display: flex;
     height: 100vh;
     padding-top: 80px;
     background-color: antiquewhite;
-    background-image: url('../images/cover1.png');
+    /* background-image: url('../images/cover1.png'); */
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -73,6 +60,7 @@ header{
     color: var(--light-color);
 }
 
+.cover-maquinado,
 .cover-desing,
 .cover-contact{
     height: 100vh;
@@ -82,6 +70,10 @@ header{
     height: 100vh;
 }
 
+.cover-container.cover-second{
+    padding-top: 0;
+    height: 90vh;
+}
 
 .cover-container__title.about{
     padding: 0 20px 0 80px;
@@ -127,6 +119,12 @@ header{
     padding: 0 180px;
 }
 
+.products-device,
+.products-paileria{
+    grid-template-columns: repeat(auto-fit, minmax(170px, 220px));
+    padding-inline: 80px;
+}
+
 .service-grid__item{
     height: 300px;
 }
@@ -140,4 +138,17 @@ header{
 
 .contact-data{
     padding: 30px;
+}
+
+.cover-paileria{
+    height: 100vh;
+}
+
+.imagen-paileria picture{
+    width: 100%;
+    height: 100vh;
+}
+
+.tools-maquinados{
+    padding-inline: 80px;
 }
