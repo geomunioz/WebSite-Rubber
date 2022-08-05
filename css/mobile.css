@@ -176,7 +176,7 @@ header nav {
     }
 
     50% {
-        background-image: url('../images/cover2.png');
+        background-image: url('../images/cover2.jpeg');
         background-position: center;
         background-size: cover;
     }
@@ -202,7 +202,7 @@ header nav {
 }
 
 .cover-desing{
-    background-image: url('../images/cover-diseño.jpeg');
+    background-image: url('../images/diseñador.png');
     justify-content: end;
 }
 
@@ -304,7 +304,7 @@ header nav {
 }
 
 .info {
-    height: 100%;
+    height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -643,6 +643,7 @@ header nav {
     justify-content: center;
     grid-auto-rows: 170px;
     text-align: center;
+    margin-block: 20px;
 }
 
 .features-item {
@@ -706,11 +707,23 @@ header nav {
 }
 
 #type-two:hover {
-    background-image: url('../images/contact-bg.png');
+    background-image: url('../images/hule.jpeg');
 }
 
 #type-three:hover {
-    background-image: url('../images/ambiental.png');
+    background-image: url('../images/nitrilo.jpeg');
+}
+
+#type-four:hover{
+    background-image: url('../images/neopreno.jpg');
+}
+
+#type-five:hover{
+    background-image: url('../images/silicon.jpeg');
+}
+
+#type-six:hover{
+    background-image: url('../images/viton.jpeg');
 }
 
 .grid-type {
@@ -736,7 +749,7 @@ header nav {
 
 .swiper-slide{
     width: 400px;
-    height: 450px;
+    height: 250px !important;
     cursor: pointer;
 }
 
@@ -797,34 +810,6 @@ header nav {
 
   .swiper-slide.card:nth-child(3n) {
     background-color: rgb(10, 184, 111);
-  }
-
-  .swiper-slide.card:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
-  }
-
-  .swiper-slide.card:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
-  }
-
-  .swiper-slide.card:nth-child(6n) {
-    background-color: rgb(180, 10, 47);
-  }
-
-  .swiper-slide.card:nth-child(7n) {
-    background-color: rgb(35, 99, 19);
-  }
-
-  .swiper-slide.card:nth-child(8n) {
-    background-color: rgb(0, 68, 255);
-  }
-
-  .swiper-slide.card:nth-child(9n) {
-    background-color: rgb(218, 12, 218);
-  }
-
-  .swiper-slide.card:nth-child(10n) {
-    background-color: rgb(54, 94, 77);
   }
 
 /* CSS Paginas de Servicios */
