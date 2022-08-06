@@ -6,8 +6,8 @@
 	$mensaje = $_POST['message'];
 
     $asunto = $name.' | '.$bussines.' | '.$email.' | '.$phone;
-
-	mail('contacto@serviciosrubber.com.', $asunto, $mensaje);
+    
+	mail('contacto@serviciosrubber.com.mx', $asunto, $mensaje);
 
     header('Location: ./contact.html');
  ?>
