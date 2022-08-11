@@ -20,10 +20,37 @@
     <meta http-equiv="Pragma" content="no-cache">
     
     <title>Rubber</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/mobile.css"/>
     <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 650px)"/>
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 890px)"/>
+    <style>
+        .swiper {
+        width: 280px;
+        height: 370px;
+      }
+
+      .swiper-wrapper{
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        display: flex;
+        width: 100%;
+        height: 100% !important;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+    </style>
+    
 
     <link rel="icon" href="./resources/Logo.png">
 </head>
@@ -90,50 +117,59 @@
         </nav>
     </header>
     <main>
-        <section class="cover-paileria">
-                <div class="info-paileria">
+        <section class="cover-container cover-about">
+            <div class="cover-container__grid">
+                <div class="cover-container__title about">
                     <div>
-                        <h1 class="cover-title">Paileria</h1>
+                        <h1 class="cover-title">Automatización</h1>
                         <p>
-                            En nuestra área de paileria nos enfocamos en la construcción de estructuras metálicas mediante el seguimiento de planos, lo cual permite realizar trazos, cortes y uniones necesarios para cumplir las necesidades y requerimientos de nuestros clientes.
-                        </p>
-                        <p>
-                            Fabricamos piezas de acuerdo a sus necesidades y diseños.
+                            En Rubber en el área de Automatización contamos con expertos encargados de generar soluciones que les permitan optimizar y mejorar el funcionamiento dentro de su planta industrial realizando trabajos de programación de PLC's, sistemas SCADA, HMI, fabricación de armarios y tableros de control, programación de robots, diseño y desarrollo de racks inteligentes, entre otros desarrollos más.
                         </p>
                     </div>
                 </div>
-                <div class="imagen-paileria">
-                    <picture>
-                        <img src="./images/paileria.png" alt="Paileria" loading="lazy">
-                    </picture>
+                <div class="cover-container__image">
+                    <div class="swiper mySwiper swiper-auto">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion.jpeg" loading="lazy" alt="Producto 1 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion1.jpeg" loading="lazy" alt="Producto 2 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion2.jpeg" loading="lazy" alt="Producto 3 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion3.jpeg" loading="lazy" alt="Producto 4 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion4.jpeg" loading="lazy" alt="Producto 5 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion5.jpeg" loading="lazy" alt="Producto 6 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion6.jpeg" loading="lazy" alt="Producto 7 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion7.jpeg" loading="lazy" alt="Producto 8 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion8.jpeg" loading="lazy" alt="Producto 9 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion9.jpeg" loading="lazy" alt="Producto 10 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion10.jpeg" loading="lazy" alt="Producto 11 en automatización">
+                          </div>
+                          <div class="swiper-slide swiper-slide__cardEffect">
+                            <img src="./images/automatizacion11.jpeg" loading="lazy" alt="Producto 12 en automatización">
+                          </div>
+                        </div>
+                      </div>
                 </div>
-        </section>
-        <h2 class="title">Trabajos realizados</h2>
-        <section class="products-paileria">
-            <picture class="product-paileria__item">
-                <img src="./images/paileria1.jpeg" alt="Proyecto 1" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria2.jpeg" alt="Proyecto 2" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria3.jpeg" alt="Proyecto 3" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria4.jpeg" alt="Proyecto 4" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria5.jpg" alt="Proyecto 5" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria6.jpg" alt="Proyecto 6" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria7.jpg" alt="Proyecto 7" loading="lazy">
-            </picture>
-            <picture class="product-paileria__item">
-                <img src="./images/paileria8.jpg" alt="Proyecto 8" loading="lazy">
-            </picture>
+            </div>
         </section>
     </main>
     <footer>
@@ -198,5 +234,7 @@
     </section>
     <script src="./js/events.js"></script>
     <script src="https://kit.fontawesome.com/dfb52525f1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-effect.js"></script>
 </body>
 </html>

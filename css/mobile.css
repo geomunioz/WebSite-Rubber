@@ -142,7 +142,7 @@ header nav {
     display: flex;
     padding-top: 80px;
     height: 60vh;
-    background-color: antiquewhite;
+    background-color: transparent;
     background-image: url('../images/cover1.png');
     background-position: center;
     background-size: cover;
@@ -415,7 +415,7 @@ header nav {
     width: 100%;
     height: 250px;
     border-radius: 8px;
-    background-color: red;
+    background-color: var(--light-color);
 }
 
 .product-device__item img,
@@ -429,7 +429,6 @@ header nav {
 #service-grid__1 {
     background-image: url('../images/diseño.jpeg');
     color: var(--primary-color);
-
 }
 
 #service-grid__2 {
@@ -455,6 +454,19 @@ header nav {
     background-image: url('../images/paileria.png');
 }
 
+#service-grid__1 a,
+#service-grid__2 a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#service-grid__3 a,
+#service-grid__4 a,
+#service-grid__5 a,
+#service-grid__6 a{
+    text-decoration: none;
+    color: var(--light-color);
+}
 .service-frontpage {
     position: absolute;
     z-index: 2;
@@ -703,7 +715,7 @@ header nav {
 }
 
 #type-one:hover {
-    background-image: url('../images/cover.png');
+    background-image: url('../images/polimero.png');
 }
 
 #type-two:hover {
@@ -799,18 +811,6 @@ header nav {
     transform: none;
     transition: none;
 }
-
-.swiper-slide.card:nth-child(1n) {
-    background-color: rgb(206, 17, 17);
-  }
-
-  .swiper-slide.card:nth-child(2n) {
-    background-color: rgb(0, 140, 255);
-  }
-
-  .swiper-slide.card:nth-child(3n) {
-    background-color: rgb(10, 184, 111);
-  }
 
 /* CSS Paginas de Servicios */
 .container-design{
