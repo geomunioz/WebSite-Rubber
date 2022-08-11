@@ -454,6 +454,10 @@ header nav {
     background-image: url('../images/paileria.png');
 }
 
+#service-grid__7 {
+    background-image: url('../images/automaticacion0.jpeg');
+}
+
 #service-grid__1 a,
 #service-grid__2 a{
     text-decoration: none;
@@ -463,7 +467,8 @@ header nav {
 #service-grid__3 a,
 #service-grid__4 a,
 #service-grid__5 a,
-#service-grid__6 a{
+#service-grid__6 a,
+#service-grid__7 a{
     text-decoration: none;
     color: var(--light-color);
 }
